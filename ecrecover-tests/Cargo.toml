@@ -1,0 +1,17 @@
+[package]
+description = "Tests for ICON Precompiles"
+name = "ecrecover-tests"
+version = "0.1.0"
+authors = ["Web3 Labs"]
+edition = "2018"
+
+[dependencies]
+ethereum-types = "0.4"
+ethkey = { path = "../../accounts/ethkey" }
+keccak-hash = "0.1.0"
+parity-bytes = "0.1"
+
+ethcore-builtin = { path = "../builtin" }
+tiny-keccak = { version = "2.0", features = ["sha3"] }
+hex-literal = "0.2.1"
+rustc-hex = "1.0"
